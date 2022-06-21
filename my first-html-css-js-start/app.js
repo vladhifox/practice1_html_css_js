@@ -10,8 +10,8 @@ window.addEventListener('click', function (e) {
         e.target.classList.add("pos_yellow");
         e.target.classList.add("yellow");
 
-
         console.log("Зеленый в Блоке 1");
+
     } else if (block === "1" && e.target.classList.contains("red")) {
         console.log("Красный в Блоке 1");
     } else if (block === "1" && e.target.classList.contains("blue")) {
